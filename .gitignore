@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+logs/
+runs/
+uploads/
+.streamlit/
+.pytest_cache/
+*.mp4
+*.mov
+*.avi
+*.mkv
+!assets/demo/.gitkeep
+!assets/screenshots/.gitkeep
+!sample_data/.gitkeep
