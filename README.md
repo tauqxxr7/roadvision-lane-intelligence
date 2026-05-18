@@ -116,6 +116,13 @@ Run the dashboard from the repo root:
 streamlit run frontend/app.py
 ```
 
+Run the smoke checks:
+
+```bash
+python -m compileall backend frontend tests
+python tests/smoke_test.py
+```
+
 ## Sample Road Video Instructions
 
 Use a short forward-facing driving clip for first tests:
@@ -187,6 +194,10 @@ RoadVision is intentionally transparent about where a classical CV pipeline stru
 - Add model-based segmentation for night, rain, and worn-lane robustness
 - Add unit tests with synthetic frames and regression clips
 - Package the backend and dashboard with Docker
+
+## License
+
+MIT License. See `LICENSE`.
 
 ## Recruiter Pitch
 
